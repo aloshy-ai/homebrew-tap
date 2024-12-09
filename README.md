@@ -1,18 +1,31 @@
-# Aloshy-ai Tap
+# aloshy.🅰🅸 Homebrew Tap
 
-## How do I install these formulae?
+This is the official Homebrew tap for Aloshy AI tools and utilities.
 
-`brew install aloshy-ai/tap/<formula>`
+## Available Formulas
 
-Or `brew tap aloshy-ai/tap` and then `brew install <formula>`.
+### git-rebrand
+A Git extension to easily rewrite repository history when rebranding author information across multiple commits.
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "aloshy-ai/tap"
-brew "<formula>"
+```bash
+brew install aloshy-ai/tap/git-rebrand
 ```
 
-## Documentation
+## Future Releases
+More tools coming soon! Watch this repository for updates.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Installation
+
+```bash
+# Add the tap
+brew tap aloshy-ai/tap
+
+# Install specific formula
+brew install git-rebrand
+```
+
+## Development
+
+This tap follows [Homebrew's best practices](https://docs.brew.sh/Formula-Cookbook) for formula development.
+
+New formulas will be added as we release more tools. Each formula is automatically updated when a new version is released.
