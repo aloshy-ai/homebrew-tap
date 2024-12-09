@@ -1,2 +1,9 @@
 # Idea Files
 .idea
+
+# Env Files
+.env*
+!.env.example
+
+# Act Files
+.actrc
